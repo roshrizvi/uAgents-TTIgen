@@ -18,33 +18,10 @@ uAgents is a library developed by Fetch.ai that allows for creating autonomous A
 -An **Imgur client ID** for image upload (upload_image_to_imgur).
 
 
-## ⚡ Quickstart
-
-### Installation
-
-Get started with uAgents by installing it for Python 3.9 to 3.12:
-
-    pip install uagents
-
-#### Creating an Agent
-
-Build your first uAgent using the following script:
-
-    from uagents import Agent, Context
-    alice = Agent(name="alice", seed="alice recovery phrase")
-
-Include a seed parameter when creating an agent to set fixed addresses, or leave it out to generate random addresses each time.
-
 #### Giving it a task
 
-Give it a simple task, such as greeting:
-
-    @alice.on_interval(period=2.0)
-    async def say_hello(ctx: Context):
-        ctx.logger.info(f'hello, my name is {ctx.name}')
-
-    if __name__ == "__main__":
-        alice.run()
+Give it a simple task, such as greeting: 
+    - You must begin your prompts with 
 
 #### Running the Agent
 
