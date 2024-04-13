@@ -5,12 +5,16 @@ uAgents is a library developed by Fetch.ai that allows for creating autonomous A
 ## 🚀 Features
 
 -🤖 **Paragraph Analysis**: Analyzes a given paragraph using a BERT model to extract key concepts.
+
 -📸 **Image Generation**: Generates an image based on the extracted information using Stable Diffusion v1-5.
+
 -🔗 **AgentVerse.ai Integration**: Leverages AgentVerse.ai's framework for efficient communication and protocol handling.
 
 ## 🧶 Prerequisites
 -An **AgentVerse.ai** account and project setup with deltaV access.
+
 -API keys for both the **BERT model** (BERT_API_URL and BERT_HEADERS) and the **Stable Diffusion v1-5 model** (STADIF_API_KEY). You can obtain these from Hugging Face (https://huggingface.co/).
+
 -An **Imgur client ID** for image upload (upload_image_to_imgur).
 
 
